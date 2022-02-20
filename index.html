@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Menu Sidebar</title>
+</head>
+<body>
+    <header id="sidebar">
+        <div class="logo_container"> 
+            <div class="logo">
+                <img src="./images/logo.svg" class="vet">
+            </div>
+            <img src="./images/menu.svg" id="btn-menu">
+        </div>
+
+        <nav id="nav-list">
+
+            <ul class="ul_menu">
+                <li>
+                    <img src="./images/search.svg" class="lupa">
+                    <input type="text" placeholder="Search">
+
+                    <span class="balao">Search</span>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./images/grid.svg" class="icons">
+                        <span class="names-links">Dashboard</span>
+                    </a>
+                    <span class="balao">Dashboard</span>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./images/pet.svg" class="icons">
+                        <span class="names-links">Pets</span>  
+                    </a>
+                    <span class="balao">Pets</span>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./images/user.svg" class="icons">
+                        <span class="names-links">Clientes</span>
+                    </a>
+                    <span class="balao">Clientes</span>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./images/vet.svg" class="icons">
+                        <span class="names-links">Veterinários</span>
+                    </a>
+                    <span class="balao">Veterinários</span>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./images/settings.svg" class="icons">
+                        <span class="names-links">Ajustes</span>
+                    </a>
+                    <span class="balao">Ajustes</span>
+                </li>
+            </ul>
+
+        </nav>
+        
+        <div id="container-perfil">
+            <div class="perfil">
+                <div class="detalhes-perfil">
+
+                   <img src="./images/photo.jpg">
+                   <div class="nome_emprego_container">
+                        <p class="nome">Eleanor Pena</p>
+                        <p class="emprego">Veterinária</p>
+                   </div>
+
+                </div>
+                <img src="./images/log-out.svg" id="logout-icon">
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <p class="main-text">DashBoard</p>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
